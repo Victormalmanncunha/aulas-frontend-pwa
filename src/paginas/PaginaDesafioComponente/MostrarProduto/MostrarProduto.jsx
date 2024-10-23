@@ -1,6 +1,6 @@
 const MostrarProduto = ({ produto }) => {
   return (
-    <p>
+    <p style={{ backgroundColor: 'white' }}>
       <b>Produto:</b>
       <br />
       <b>Nome:</b> {produto.nome}
